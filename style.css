@@ -1,0 +1,17 @@
+body {
+    background-image: url(images/bg.jpg);
+}
+.column {
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.img {
+    border: 3px solid black;
+}
